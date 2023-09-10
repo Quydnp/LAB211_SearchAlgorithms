@@ -44,7 +44,7 @@ public class SearchingProgram extends Menu<String> {
                 library.displayArray(array);
                 System.out.print("The value you want to search is: ");
                 int value1 = sc.nextInt();
-                System.out.println("\nThe index of the value is: ");
+                System.out.print("\nThe index of the value is: ");
                 System.out.println(algorithm.LinearSearch(array, value1, 0, array.length));
                 System.out.println("");
                 break;
